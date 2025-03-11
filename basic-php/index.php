@@ -21,5 +21,31 @@ echo "{$name} scored {$percent} <br>";
 echo "price of a ball is {$price} <br>";
 echo "status : {$employee} <br>";
 $total = $quantity * $price ;
-echo "price of {$quantity} balls is {$total} "
+echo "price of {$quantity} balls is {$total} ";
+
+//Arthemetic Operations
+
+$x = 12;
+$y = 5;
+
+$z = $x + $y;
+$c = $x - $y;
+$d = $x * $y;
+$a = $x / $y;
+$q = $x % $y;
+$t = $x ** $y;
+
+$x++;
+$y--;
+
+echo $z;
+echo $c;
+echo $d;
+echo $a;
+echo $q;
+echo $t;
+echo $x;
+echo $y;
+
 ?>
+
