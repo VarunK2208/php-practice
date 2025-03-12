@@ -47,5 +47,27 @@ echo $t;
 echo $x;
 echo $y;
 
+if($x > 10 and $y < 10){
+    echo "x is greater than 10 and y is less than 10";
+}
+if($x > 10 || $y == 10) {
+    echo "or operator one is correct one is incorrect";
+}
+if($x != 10) {
+    echo "not equal operator";
+}
+
+var_dump($x == $y);
+var_dump($x != $y);
+var_dump($x > $y);
+var_dump($x === $y);
+var_dump($x !== $y);
+var_dump($x <> $y);
+var_dump($x <=> $y);
+
+//ternary operator 
+
+$b = 12;
+echo $b == 12 ? "it is true " : "it is false";
 ?>
 
